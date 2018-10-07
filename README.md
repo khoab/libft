@@ -130,9 +130,13 @@ You might want to have a go at this project too. If you've never heard of Makefi
 		mkdir libft
 2. Clone this repo (don't name it libft) and copy the Makefile-sample as Makefile and libft.h to your own project:
 
-		git clone https://github.com/khoab/libft r4-libft
-		cp r4-libft/Makefile-sample libft/Makefile
-		cp r4-libft/libft.h libft/
+		git clone https://github.com/khoab/libft kb_libft
+		cd kb_libft/
+		mkdir includes/
+		cd ../
+		cp kb_libft/Makefile libft/Makefile
+		cp kb_libft/libft.mk
+		cp kb_libft/includes/libft.h libft/includes/
 3. Go to your project, [read the instructions][1] for the function you want to create, code it and uncomment it from the Makefile:
 
 		cd libft
