@@ -70,7 +70,7 @@ The goal is to create a library called libft.a from the source files so I can la
 
 To create that library, after downloading/cloning this project, **cd** into the project, copy all the files from the sub folders to the root directory and finally, call make:
 
-	git clone https://github.com/R4meau/libft
+	git clone https://github.com/khoab/libft
 	cd libft
 	make copy
 	make
