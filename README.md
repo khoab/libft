@@ -154,7 +154,7 @@ You might want to have a go at this project too. If you've never heard of Makefi
 		cd libft-unit-test/
 		make f
 
-That's it! If you're having some problems, just [send me a tweet][8], or [DM me on Facebook][9]. If you think your problem is due to my code or this README, [create a new issue][9]. I'll definitely check it out.
+That's it! If you're having some problems, just [send me a tweet][8], or [DM me on Facebook][9]. If you think your problem is due to my code or this README, [create a new issue][10]. I'll definitely check it out.
 
 ## Example usage
 
@@ -165,5 +165,13 @@ This is a list of my projects that use Libft extensively:
 
 Enjoy.
 
-[8] https://twitter.com/LargeYellowRock
-[9] https://www.facebook.com/r0cklY.Bui
+[1]:
+[2]: http://42.us.org "42 USA"
+[3]:
+[4]: https://github.com/alelievr/libft-unit-test
+[5]: https://github.com/yyang42/moulitest
+[6]: https://github.com/QuentinPerez/Maintest/tree/master/libft
+[7]: https://github.com/Kant1-0/libft-test
+[8]: https://twitter.com/LargeYellowRock
+[9]: https://www.facebook.com/r0cklY.Bui
+[10]: https://www.facebook.com/r0cklY.Bui
