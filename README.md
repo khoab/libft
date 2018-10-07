@@ -165,9 +165,9 @@ This is a list of my projects that use Libft extensively:
 
 Enjoy.
 
-[1]:
+[1]: 
 [2]: http://42.us.org "42 USA"
-[3]:
+[3]: 
 [4]: https://github.com/alelievr/libft-unit-test
 [5]: https://github.com/yyang42/moulitest
 [6]: https://github.com/QuentinPerez/Maintest/tree/master/libft
