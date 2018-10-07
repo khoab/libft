@@ -105,19 +105,16 @@ To test the code we're going to be using @alelievr's [Libft Unit Test][4]. There
 
 1. Clone this repo and cd into it, make sure it's called `libft`:
 		
-		git clone https://github.com/R4meau/libft
-		cd libft/
-2. Copy all the source files to the root directory:
-	
-		make copy
-3. Run Make so you can build the library:
+		git clone https://github.com/khoab/libft
+		cd libft/	
+2. Run Make so you can build the library:
 		
 		make
-4. Go back to the root directory and download @alelievr's Libft Unit Test:
+3. Go back to the root directory and download @alelievr's Libft Unit Test:
 		
 		cd ..
 		git clone https://github.com/alelievr/libft-unit-test
-5. Go into the test folder and run the test:
+4. Go into the test folder and run the test:
 
 		cd libft-unit-test/
 		make f
@@ -133,7 +130,7 @@ You might want to have a go at this project too. If you've never heard of Makefi
 		mkdir libft
 2. Clone this repo (don't name it libft) and copy the Makefile-sample as Makefile and libft.h to your own project:
 
-		git clone https://github.com/R4meau/libft r4-libft
+		git clone https://github.com/khoab/libft r4-libft
 		cp r4-libft/Makefile-sample libft/Makefile
 		cp r4-libft/libft.h libft/
 3. Go to your project, [read the instructions][1] for the function you want to create, code it and uncomment it from the Makefile:
