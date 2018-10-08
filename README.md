@@ -72,15 +72,12 @@ To create that library, after downloading/cloning this project, **cd** into the 
 
 	git clone https://github.com/khoab/libft
 	cd libft
-	make copy
 	make
 
-You should see a *libft.a* file and some object files (.o).
+You should see a *libft.a* file and directory that containt all object files (.o).
 
 
-Now to clean up (removing the .o files and the .c files from the root), call `make clean`
-
-**WARNING:** `make clean` will delete all your files from your root directory. Do not run it if you're using the `Makefile` file. This is why I added the `Makefile-sample` file.
+Now to clean up (removing the .o directory), call `make clean`
 
 ### How do I use the library?
 
