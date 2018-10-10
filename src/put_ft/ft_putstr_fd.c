@@ -6,7 +6,7 @@
 /*   By: kbui <kbui@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/05 19:22:22 by kbui              #+#    #+#             */
-/*   Updated: 2018/10/05 19:22:50 by kbui             ###   ########.fr       */
+/*   Updated: 2018/10/07 20:04:24 by kbui             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,10 @@
 
 void	ft_putstr_fd(char const *s, int fd)
 {
-	while (*s)
-		write(fd, s++, 1);
+	int		i;
+
+	i = 0;
+	while (s[i])
+		i++;
+	write(fd, s, i);
 }

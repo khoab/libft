@@ -1,24 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   ft_strswap.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kbui <kbui@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/05 19:23:02 by kbui              #+#    #+#             */
-/*   Updated: 2018/10/07 20:08:54 by kbui             ###   ########.fr       */
+/*   Created: 2018/10/09 19:49:23 by kbui              #+#    #+#             */
+/*   Updated: 2018/10/09 19:51:05 by kbui             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-void	ft_putendl_fd(char const *s, int fd)
+void	ft_strswap(char **s1, char **s2)
 {
-	int		i;
+	char	*temp;
 
-	i = 0;
-	while (s[i])
-		i++;
-	write(fd, s, i);
-	ft_putchar_fd('\n', fd);
+	temp = *s1;
+	*s1 = *s2;
+	*s2 = temp;
 }
